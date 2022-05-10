@@ -1,0 +1,20 @@
+body{
+  background-color:pink;
+}
+  #cabecera{
+    width:auto;
+    height: 100px;
+    background-color: red;
+  }
+  #contenedor{
+    width:900px;
+    height: 700px;
+    margin: 0 auto;
+  }
+.boletes{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  float:left;
+}
