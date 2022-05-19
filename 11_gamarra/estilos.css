@@ -1,0 +1,68 @@
+body{
+  background-color: #D6EAF8;
+}
+.petalo{
+  width: 100px;
+  height: 120px;
+  background-color: pink;
+  position: relative;
+ border-radius: 0% 100% 0% 100%;
+ z-index: 1;
+ left: 400px;
+}
+.suelo{
+  width: auto;
+  height: 500px;
+  background-color: lightgreen;
+  position:relative;
+  top:700px;
+}
+.flor{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: yellow;
+  left: 300px;
+  position:absolute;
+  top:350px;
+  animation:floreta 4s infinite linear;
+
+}
+#p1{
+  top:-120px;
+  left:-100px;
+
+}
+#p2{
+  top:-95px;
+  left:25px;
+
+}
+#p3{
+  top:-355px;
+  left:35px;
+transform: rotate(-95deg);
+
+}
+#p4{
+  top:-345px;
+  left:-110px;
+transform: rotate(85deg);
+
+}
+@keyframes floreta{
+  0%{transform: rotate(0deg);}
+  100% { transform:rotate(360deg);}
+}
+
+.tallo{
+  height:335px;
+  width: 5px;
+
+  top: 375px;
+  left: 310px;
+  background-color: palegreen;
+  position:absolute;
+
+
+}

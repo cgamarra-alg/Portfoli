@@ -1,0 +1,126 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+div{
+  background-repeat: no-repeat;
+  background-position: 500px 0px;
+
+}
+h2{
+  font-family: Helvetica, Arial, sans-serif;
+  width: 400px;
+  padding: 40px;
+  font-size: 40px;
+
+}
+p{
+  width: 400px;
+  padding: 0px 20px;
+  font-size: 25px;
+
+
+}
+ul{
+  list-style: none;
+  text-align: right;
+
+}
+li{
+  display:inline-block;
+  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 15px;
+
+}
+a{
+  text-decoration:none;
+  font-weight:bold;
+  color:pink
+}
+a:hover{
+  color:turquoise
+}
+h2, p{
+  color:#666
+}
+.clar{
+  color:#CCC
+}
+.cabecera{
+height:40px;
+background-image: url("img/logo.png");
+background-repeat: no-repeat;
+background-position: 20px 5px;
+
+
+
+}
+#bloque0{
+height:550px;
+background-color:#6C3;
+background-image:url("img/pantalla.png");
+
+
+}
+#bloque1{
+height:641px;
+background-image: url("img/mobil.jpg");
+
+}
+#bloque2{
+height:500px;
+
+background-color:#333333;
+background-image: url("img/web.png");
+}
+#bloque3{
+height:550px;
+
+background-color:#EEECEE;
+background-image: url("img/pantalla.png");
+}
+#bloque4{
+height:550px;
+
+background-color:#6C3;
+background-image: url("img/mobil2.png");
+background-position: 500px 20px;
+}
+#bloque5{
+height:643px;
+
+background-color:#EEECEE;
+background-image: url("img/web 2.png");
+background-position: 500px 20px;
+}
+
+#pie{
+height:200px;
+
+background-color:#333333;
+text-align: center;
+padding-top: 50px;
+
+
+}
+#pie a{
+  padding-right: 20px;
+}
+.boton{
+  width:100px;
+  height:100px;
+
+  background-image: url("img/bae.jpeg");
+background-position: 0px 0px;
+
+background-size: cover;
+  position:fixed;
+  bottom:0;
+  right:20px;
+  border-radius: 50%;
+
+}

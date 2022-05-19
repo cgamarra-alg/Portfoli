@@ -1,0 +1,179 @@
+#contenido{
+  margin: 0 auto;
+
+}
+body{
+  background-image: url(img/mii.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.cara{
+width:429px;
+height:451px;
+left:238px;
+top:  135px;
+
+position: absolute;
+background-color: #FFE0DA;
+border-radius:48% 48% 52% 52% ;
+z-index: 78;
+}
+.cabello{
+  width:528px;
+  height:530px;
+  background-color: #3D2314;
+  border: 5px solid;
+  position: absolute;
+border-radius: 40% 39% 61% 60%;
+left:180px;
+top:  125px;
+z-index:1;
+}
+.flequillo{
+  width:240px;
+  height:230px;
+  background-color: #3D2314;
+  border: 5px solid;
+  border-radius: 99% 1% 100% 0%;
+  position: absolute;
+  z-index: 89;
+  left:200px;
+  top:  130px;
+}
+.flequillo2{
+  width:240px;
+  height:230px;
+  background-color: #3D2314;
+  border: 5px solid;
+  border-radius: 99% 1% 100% 0%;
+  position: absolute;
+  z-index: 89;
+  left:450px;
+  top:  130px;
+  transform: scaleX(-1);
+}
+.ojo.izquierdo{
+width: 75px;
+height:75px;
+left:340px;
+top:  380px;
+position:absolute;
+  border-radius: 46% 48% 52% 54%;
+  background-color: #FFFFFF;
+  z-index: 100;
+}
+.ojo.derecho{
+width: 75px;
+height:75px;
+left:489px;
+top:  380px;
+position:absolute;
+  border-radius: 46% 48% 52% 54%;
+  background-color: #FFFFFF;
+  z-index: 100;
+  transform: scaleX(-1);
+}
+.ceja1{
+  width: 75px;
+  height:75px;
+  left:340px;
+  top:  290px;
+  position: absolute;
+  background-color: #3D2314;
+  clip-path: polygon(3% 39%, 32% 12%, 54% 9%, 83% 18%, 98% 29%, 98% 39%, 86% 29%, 67% 23%, 57% 20%, 46% 20%, 32% 23%);
+z-index: 110;
+}
+.ceja2{
+  width: 75px;
+  height:75px;
+  left:480px;
+  top:  290px;
+  position: absolute;
+  background-color: #3D2314;
+  clip-path: polygon(3% 39%, 32% 12%, 54% 9%, 83% 18%, 98% 29%, 98% 39%, 86% 29%, 67% 23%, 57% 20%, 46% 20%, 32% 23%);
+z-index: 110;
+transform: scaleX(-1);
+}
+.iris1{
+  width: 55px;
+  height:55px;
+  left:350px;
+  top:  390px;
+  position:absolute;
+    border-radius: 46% 48% 52% 54%;
+    background-color:#000000 ;
+    z-index: 111;
+}
+.iris2{
+  width: 55px;
+  height:55px;
+  left:498px;
+  top:  390px;
+  position:absolute;
+    border-radius: 46% 48% 52% 54%;
+    background-color:#000000 ;
+    z-index: 111;
+    transform: scaleX(-1);
+}
+.nariz{
+  width:20px;
+  height:40px;
+  background:#FFE0DA ;
+  position: absolute;
+  top:430px;
+  left:430px;
+  border:5px solid #000;
+  z-index:112;
+  border-top:5px solid transparent;
+  border-left: 5px solid transparent;
+  border-radius: 42.5%;
+}
+.boca{
+  width:200px;
+  height:80px;
+  background: transparent;
+  position:absolute;
+  top:450px;
+  left:340px;
+  border-radius:50%;
+  z-index:114;
+  border-bottom:5px solid #000;
+}
+.cuerpo{
+  width: 400px;
+  height: 300px;
+  top: 580px;
+  left: 260px;
+  background-color: pink;
+  border-radius: 100% 100% 0% 0%;
+position: absolute;
+z-index: 68;
+}
+.brazo{
+  width: 300px;
+  height: 260px;
+  background-color: #000;
+  position:absolute;
+  top:620px;
+  left:330px;
+  clip-path: inset(0 25% 0 73%);
+  z-index: 116;
+}
+.brazo2{
+  width: 300px;
+  height: 260px;
+  background-color: #000;
+  position:absolute;
+  top:620px;
+  left:290px;
+  clip-path: inset(0 25% 0 73%);
+  z-index: 117;
+  transform: scaleX(-1);
+}
+p{
+text-align:right;
+  font-size: 50px;
+margin-top:300px;
+margin-right: 200px;
+
+}

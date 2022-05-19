@@ -1,0 +1,150 @@
+body{
+background-color: #B6BDFF;
+}
+*{
+  padding:0;
+  margin:0;
+}
+.suelo{
+  background-color: #B6FFB8;
+  width: auto;
+  height: 600px;
+  margin-top: 500px;
+}
+.luna{
+  background-color: #EFFAFF;
+  clip-path: circle(50% at 50% 50%);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:200px;
+  left:200px;
+}
+.casa{
+  background-color: #FFFFFF;
+  clip-path: polygon(75% 9%, 91% 29%, 96% 49%, 94% 70%, 85% 88%, 66% 95%, 68% 80%, 60% 70%, 51% 70%, 41% 72%, 36% 79%, 36% 92%, 23% 89%, 14% 76%, 8% 58%, 9% 27%, 27% 10%);
+  width: 60px;
+  height: 60px;
+position: absolute;
+}
+.techoparteabajo{
+  clip-path: polygon(21% 84%, 7% 60%, 10% 50%, 22% 48%, 30% 57%, 35% 65%, 44% 55%, 52% 48%, 59% 48%, 64% 50%, 67% 57%, 69% 65%, 78% 51%, 87% 47%, 93% 51%, 96% 56%, 86% 73%, 80% 82%, 76% 84%);
+  background-color: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+.techopartearriba{
+  clip-path: polygon(7% 71%, 3% 60%, 1% 39%, 3% 21%, 11% 5%, 31% 0, 44% 0, 55% 1%, 69% 0, 87% 7%, 93% 16%, 99% 27%, 99% 46%, 94% 61%, 83% 71%, 80% 63%, 70% 58%, 63% 67%, 53% 62%, 42% 62%, 35% 71%, 26% 66%, 15% 67%);
+
+
+  background-color: #FF9999;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+#b1{
+  top:560px;
+  left:500px;
+}
+#g1{
+  top:560px;
+  left:500px;
+}
+#p1{
+  top:600px;
+  left:500px;
+}
+#b2{
+  top:800px;
+  left:700px;
+}
+#g2{
+  top:798px;
+  left:700px;
+}
+#p2{
+  top:838px;
+  left:700px;
+}
+.aspa{
+  width: 70px;
+  height: 70px;
+  background-color: #F3FF99;
+  position: relative;
+ border-radius: 0% 100% 0% 100%;
+ z-index: 1;
+ left: 900px;
+}
+.moli{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: gray;
+  left: 800px;
+  position:absolute;
+  top:500px;
+  animation:molino 4s infinite linear;
+
+}
+#i1{
+  top:10px;
+  left:10px;}
+
+
+
+#i2{
+  top:-135px;
+  left:-65px;
+  background-color: pink;
+
+
+}
+@keyframes molino{
+  0%{transform: rotate(0deg);}
+  100% { transform:rotate(360deg);}
+}
+.helikopter{
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  clip-path: polygon(26% 31%, 12% 42%, 8% 57%, 14% 71%, 32% 73%, 47% 76%, 68% 75%, 75% 62%, 95% 62%, 96% 40%, 88% 48%, 72% 47%, 62% 36%, 44% 31%);
+position: absolute;
+top:450px;
+left: 730px;
+
+}
+.persona{
+  width:60px;
+  height: 60px;
+  background-color:white;
+  clip-path: polygon(18% 68%, 16% 51%, 22% 33%, 35% 26%, 39% 10%, 51% 4%, 64% 9%, 69% 20%, 76% 30%, 80% 40%, 81% 47%, 81% 59%, 80% 66%, 76% 71%, 71% 76%, 72% 85%, 72% 95%, 55% 96%, 51% 81%, 44% 95%, 31% 96%, 34% 77%, 24% 72%);
+  animation-name: persona;
+  animation-duration: 4s;
+  position: relative;
+  top: 600px;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes persona {
+  0% { background-color: white; left:0; top: 600px; }
+  50%{ background-color: white; left:300px; top: 600px;}
+  100%{ background-color: white; left: 500px; top: 600px;  }
+}
+.dj{
+  width:60px;
+  height: 60px;
+  background-color:white;
+  clip-path: polygon(18% 68%, 16% 51%, 22% 33%, 35% 26%, 39% 10%, 51% 4%, 64% 9%, 69% 20%, 76% 30%, 80% 40%, 81% 47%, 81% 59%, 80% 66%, 76% 71%, 71% 76%, 72% 85%, 72% 95%, 55% 96%, 51% 81%, 44% 95%, 31% 96%, 34% 77%, 24% 72%);
+  animation-name: dj;
+  animation-duration: 4s;
+  position: relative;
+  top: 600px;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes dj {
+  0% { background-color: white; left:0; top: 800px; }
+  50%{ background-color: #FF00FF; left:800px; top: 800px;}
+  100%{ background-color: #FFFF00; left: 900px; top: 800px;  }
+}

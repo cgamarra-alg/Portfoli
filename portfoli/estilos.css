@@ -1,0 +1,117 @@
+*{
+padding:0;
+margin:0;
+}
+  #cabecera{
+    width:auto;
+    height: 100px;
+
+padding-top: 30px;
+  }
+
+.contenedor{
+  background-image: url(img/cozy.gif) ;
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: auto;
+
+}
+
+  #caja{
+    width:35%;
+    height:900px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+
+  }
+.boletes{
+  width: 100px;
+  height: 100px;
+  background-color: #AA651A;
+  float:left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+
+
+}
+
+
+
+h1{
+  text-align: center;
+margin: auto;
+color:#AA651A;
+}
+h2{
+  text-align: center;
+margin: auto;
+color:#AA651A;
+}
+p{
+  text-align: center;
+}
+.contenedor-2{
+  background-image: url(img/bae.gif);
+  background-size: cover;
+}
+.contenedor-1{
+  background-image: url(img/fire.gif);
+  background-size: cover;
+}
+.contenedor-4{
+  background-image: url(img/kiara.gif);
+  background-size: cover;
+}
+.contenedor-3{
+  background-image: url(img/inac.gif);
+  background-size: cover;
+}
+.boletes-1{
+  width: 100px;
+  height: 100px;
+  background-color: #FF7400;
+  float:left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+.contenedor-4 h1, h2{
+  color: #FF7400;
+}
+.boletes-2{
+  width: 100px;
+  height: 100px;
+  background-color: #0046FF;
+  float:left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+.contenedor-2 h1, h2{
+  color:#0046FF;
+}
+.boletes-3{
+  width: 100px;
+  height: 100px;
+  background-color: #FF0000;
+  float:left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
+.boletes-4{
+  width: 100px;
+  height: 100px;
+  background-color: #EBBCFF;
+  float:left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+}
